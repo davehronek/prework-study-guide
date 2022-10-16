@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -33,15 +34,26 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here.</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the outside of an element.</li>
+          <li>A period preceeding verbiage in the CSS file designates this as a class selector, so any HTML element assigned to this class will gain the property assignments from the CSS file.</li>
+          <li>The asterisk enables you to select all elements of a particular selector, so if you used *p it would allow all elements in your document with the "p" HTML tag to be assigned a particula style.</p></li>
         </ul>
       </section>
 
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git status: checks what branch we are currently on.</li>
+          <li>git checkout: switch to another branch and check it to your working directory.</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it.</li>
+          <li>git add -A: Add changed files in our working directory to the staging area of Git, but make sure you're in the feature branch.</li>
+          <li>git commit -m "descriptive message": commit your staged content as a new commit snapshot.</li>
+          <li>git pull origin main: make's sure the current branch is up to date before opening a pull request.</li>
+          <li> git push origin feature/name: transmit local branch commits to remote repository branch.</li>
+          <li>Once pushed, you can navigate to the repository on GitHub, clock the "Pull Requests" tab and then the "New Pull Request" button.  The base branch should be "main" and the comparison branch should be the feature branch to be merged.  Add a title for the pull request with a description of the changes, click "Create pull request" button, then merge the comparison branch into the base branch by selecting the "Merge pull request" button and confirming the merge request.</li>
+          <li>The "Issues" tab can then be accessed in GitHub and the "Close issue" button can be used if the issue has been resolved.</li>
+          <li>Once the merge has been completed, update our local branch by  going to the command line, type "git checkout main", then pull the remote main branch into the local main branch by entering "git pull origin main".</li>
         </ul>
       </section>
 
